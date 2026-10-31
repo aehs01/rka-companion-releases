@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'releases/v1.0.9/RKA-Windows-Companion-v1.0.9-PILOT.zip'
+      - '.github/workflows/publish-v109-pilot.yml'
   workflow_dispatch:
 
 permissions:
